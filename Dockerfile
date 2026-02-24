@@ -1,4 +1,4 @@
-﻿FROM node:18-alpine AS builder
+FROM node:18-alpine AS builder
 WORKDIR /usr/src/app
 COPY backend/package*.json ./backend/
 WORKDIR /usr/src/app/backend
