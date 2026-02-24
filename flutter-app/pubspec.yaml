@@ -1,0 +1,14 @@
+name: unmyeong_app
+description: 운명을보는회사원 PoC Flutter app
+publish_to: 'none'
+version: 0.1.0+1
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+flutter:
+  uses-material-design: true

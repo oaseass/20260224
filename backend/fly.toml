@@ -1,0 +1,8 @@
+# fly.toml for Fly.io
+app = "unmyeong-backend"
+
+[build]
+  image = "unmyeong-backend:latest"
+
+[env]
+  PORT = "4000"
